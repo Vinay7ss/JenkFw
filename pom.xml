@@ -58,14 +58,10 @@
     
 </dependency>
  </dependencies>
- <!--
+ 
 <profiles>
 <profile>
 <id>read</id>
-// add <build> here for profiling
-</profile>
-</profiles>
- -->
 <build>
  <plugins>
       <plugin>
@@ -74,11 +70,14 @@
         <version>3.0.0</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng_RegionalSuite.xml</suiteXmlFile>
+            <suiteXmlFile>testng_Read.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
 </plugins>
 </build>
+</profile>
+</profiles>
+
  
 </project>             
