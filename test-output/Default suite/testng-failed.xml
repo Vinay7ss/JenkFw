@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testng.CreateOrgTest">
+      <class name="vtiger.OrganizationTests.demo5">
         <methods>
-          <include name="createOrgTest"/>
+          <include name="abc"/>
         </methods>
-      </class> <!-- Testng.CreateOrgTest -->
+      </class> <!-- vtiger.OrganizationTests.demo5 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
